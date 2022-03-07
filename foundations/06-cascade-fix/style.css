@@ -1,17 +1,20 @@
-.para,
-.small-para {
+.para.small-para {
   color: hsl(0, 100%, 50%);
+  font-size: 18px ;
+  font-weight: normal;
 }
 
-.small-para {
-  font-size: 14px;
-}
+
 
 .para {
   font-size: 22px;
+  color:red;
+  font-weight: bold;
+  
 }
 
-.confirm {
+
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -21,6 +24,7 @@
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  font-weight: bold;
 }
 
 .child {
@@ -30,5 +34,13 @@
 
 div.text {
   color: green;
-  font-size: 22px;
+  font-size: 26px;
+  
+  
+}
+
+.text .text.child{
+
+ color:red;
+ font-size: 20px;
 }
